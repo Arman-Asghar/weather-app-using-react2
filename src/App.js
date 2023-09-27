@@ -32,7 +32,7 @@ function App() {
       })
       .catch((error) => console.log(error));
     fetch(
-      `https://api.unsplash.com/search/photos?query=${locations}&client_id=tiPO2milyQwixoOCe_X4mfNINcIFUH8mp-4mKI6B1qw`
+      `https://api.unsplash.com/search/photos?query=${locations}&client_id=Q710salgnk4JcCsjkDV8c7FuKCUKDdlMSd9BILG5oe0`
     )
       .then((res) => {
         if (res.ok) {
